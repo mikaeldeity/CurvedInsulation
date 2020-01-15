@@ -1,4 +1,4 @@
-# Revit-Curved-Insulation
+# Revit Curved Insulation
 Draw Curved Batting Detail Lines on Arcs and Lines
 
 1. Pick reference batting detail line
