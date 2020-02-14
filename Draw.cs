@@ -31,16 +31,16 @@ namespace CurvedInsulation
             try
             {
                 Reference refinsulation = uidoc.Selection.PickObject(ObjectType.Element, new SelectionFilterAnnotation(), "Select Insulation Batting");
-
+                
                 Reference refcurve = uidoc.Selection.PickObject(ObjectType.Element, new SelectionFilterCurve(), "Select Curve");
 
                 DetailCurve insulationdetailcurve = doc.GetElement(refinsulation) as DetailCurve;
 
                 DetailCurve detailcurve = doc.GetElement(refcurve) as DetailCurve;
 
-                double width = insulationdetailcurve.LookupParameter("Insulation Width").AsDouble();
+                double width = insulationdetailcurve.get_Parameter(BuiltInParameter.INSULATION_WIDTH).AsDouble();//swapped to built in parameter for cross-language compatibility
 
-                double ratio = insulationdetailcurve.LookupParameter("Insulation Bulge to Width Ratio (1/x)").AsDouble();
+                double ratio = insulationdetailcurve.get_Parameter(BuiltInParameter.INSULATION_SCALE).AsDouble();//swapped to built in parameter for cross-language compatibility
 
                 Curve curve = detailcurve.GeometryCurve;                
 
@@ -69,7 +69,10 @@ namespace CurvedInsulation
             }
             catch (Exception e)
             {
-                t1.RollBack();
+                if (t1.HasStarted()) // check to see if the transaction even started before trying to roll it back
+                {
+                    t1.RollBack();
+                }
                 return Result.Cancelled;
             }    
         }

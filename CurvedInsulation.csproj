@@ -61,6 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CurvedInsulation.png" />
+    <Resource Include="Resources\CurvedInsulation.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if exist "$(AppData)\Autodesk\REVIT\Addins\2019" copy "$(ProjectDir)*.addin" "$(AppData)\Autodesk\REVIT\Addins\2019"
+if exist "$(AppData)\Autodesk\REVIT\Addins\2019" copy "$(ProjectDir)$(OutputPath)*.dll" "$(AppData)\Autodesk\REVIT\Addins\2019"</PostBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -6,3 +6,7 @@ C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.dll
 C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.pdb
 C:\ProgramData\Autodesk\Revit\Addins\2019\CurvedInsulation\CurvedInsulation.dll
 C:\ProgramData\Autodesk\Revit\Addins\2019\CurvedInsulation\CurvedInsulation.pdb
+C:\Users\johnpierson\Documents\Repos\CurvedInsulation\obj\Debug\CurvedInsulation.csproj.CoreCompileInputs.cache
+C:\Users\johnpierson\Documents\Repos\CurvedInsulation\obj\Debug\CurvedInsulation.dll
+C:\Users\johnpierson\Documents\Repos\CurvedInsulation\obj\Debug\CurvedInsulation.pdb
+C:\Users\johnpierson\Documents\Repos\CurvedInsulation\obj\Debug\CurvedInsulation.g.resources

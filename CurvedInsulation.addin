@@ -2,7 +2,7 @@
 <RevitAddIns>
   <AddIn Type="Application">
     <Name>Curved Insulation</Name>
-    <Assembly>.\CurvedInsulation\CurvedInsulation.dll</Assembly>
+    <Assembly>.\CurvedInsulation.dll</Assembly>
     <AddInId>c845f6f2-9f5d-442f-81a6-abc5579db649</AddInId>
     <FullClassName>CurvedInsulation.App</FullClassName>
     <VendorId>Mikael Santrolli</VendorId>
