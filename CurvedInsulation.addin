@@ -5,7 +5,7 @@
     <Assembly>.\CurvedInsulation\CurvedInsulation.dll</Assembly>
     <AddInId>c845f6f2-9f5d-442f-81a6-abc5579db649</AddInId>
     <FullClassName>CurvedInsulation.App</FullClassName>
-    <VendorId>Curved Insulation</VendorId>
-    <VendorDescription>Curved Insulation</VendorDescription>
+    <VendorId>Mikael Santrolli</VendorId>
+    <VendorDescription>mikael.santrolli@gmail.com</VendorDescription>
   </AddIn>
 </RevitAddIns>
