@@ -2,3 +2,7 @@ C:\Users\MSantrolli\source\repos\CurvedInsulation\Release\CurvedInsulation\Curve
 C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Release\CurvedInsulation.csprojAssemblyReference.cache
 C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Release\CurvedInsulation.csproj.CoreCompileInputs.cache
 C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Release\CurvedInsulation.dll
+C:\Users\MSantrolli\Documents\GitHub\CurvedInsulation\Release\CurvedInsulation\CurvedInsulation.dll
+C:\Users\MSantrolli\Documents\GitHub\CurvedInsulation\obj\Release\CurvedInsulation.csprojAssemblyReference.cache
+C:\Users\MSantrolli\Documents\GitHub\CurvedInsulation\obj\Release\CurvedInsulation.csproj.CoreCompileInputs.cache
+C:\Users\MSantrolli\Documents\GitHub\CurvedInsulation\obj\Release\CurvedInsulation.dll
