@@ -67,7 +67,7 @@ namespace CurvedInsulation
 
                 return Result.Succeeded;
             }
-            catch (Exception e)
+            catch
             {
                 if (t1.HasStarted()) // check to see if the transaction even started before trying to roll it back
                 {
