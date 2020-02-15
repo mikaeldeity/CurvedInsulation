@@ -20,7 +20,9 @@ namespace CurvedInsulation
             PushButtonData b1Data = new PushButtonData("Curved", "Curved", thisAssemblyPath, "CurvedInsulation.Draw");
             PushButton pb1 = ribbonPanel.AddItem(b1Data) as PushButton;
             pb1.ToolTip = "Draw Curved Insulation. Pick a reference Insulation Batting and then the arc or line be applied to.";
-            BitmapImage pb1Image = new BitmapImage(new Uri(thisAssemblyPath.Replace("CurvedInsulation.dll", "") + "CurvedInsulation.png"));
+            Uri addinImage =
+                new Uri("pack://application:,,,/CurvedInsulation;component/Resources/CurvedInsulation.png");
+            BitmapImage pb1Image = new BitmapImage(addinImage);
             pb1.LargeImage = pb1Image;
         }
         public Result OnStartup(UIControlledApplication application)

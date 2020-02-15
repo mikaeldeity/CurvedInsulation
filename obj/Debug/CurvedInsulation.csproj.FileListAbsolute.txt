@@ -1,8 +1,0 @@
-C:\Users\MSantrolli\source\repos\CurvedInsulation\bin\Debug\CurvedInsulation.dll
-C:\Users\MSantrolli\source\repos\CurvedInsulation\bin\Debug\CurvedInsulation.pdb
-C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.csprojAssemblyReference.cache
-C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.csproj.CoreCompileInputs.cache
-C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.dll
-C:\Users\MSantrolli\source\repos\CurvedInsulation\obj\Debug\CurvedInsulation.pdb
-C:\ProgramData\Autodesk\Revit\Addins\2019\CurvedInsulation\CurvedInsulation.dll
-C:\ProgramData\Autodesk\Revit\Addins\2019\CurvedInsulation\CurvedInsulation.pdb
