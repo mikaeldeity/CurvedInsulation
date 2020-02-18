@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Curved Insulation")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Draw Curved Insulation Batting Lines")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Curved Insulation")]
