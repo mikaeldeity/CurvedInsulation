@@ -67,7 +67,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CurvedInsulation.png" />
     <Resource Include="Resources\CurvedInsulation.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
