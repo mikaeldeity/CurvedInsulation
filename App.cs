@@ -1,10 +1,6 @@
 ﻿using Autodesk.Revit.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
 namespace CurvedInsulation
@@ -13,17 +9,15 @@ namespace CurvedInsulation
     {
         static void AddRibbonPanel(UIControlledApplication application)
         {
-            RibbonPanel ribbonPanel = application.CreateRibbonPanel("Insulation");
+            RibbonPanel panel = application.CreateRibbonPanel("Insulation");
 
-            string thisAssemblyPath = Assembly.GetExecutingAssembly().Location;
+            string path = Assembly.GetExecutingAssembly().Location;
 
-            PushButtonData b1Data = new PushButtonData("Curved", "Curved", thisAssemblyPath, "CurvedInsulation.Draw");
-            PushButton pb1 = ribbonPanel.AddItem(b1Data) as PushButton;
-            pb1.ToolTip = "Draw Curved Insulation. Pick a reference Insulation Batting and then the arc or line be applied to.";
-            Uri addinImage =
-                new Uri("pack://application:,,,/CurvedInsulation;component/Resources/CurvedInsulation.png");
-            BitmapImage pb1Image = new BitmapImage(addinImage);
-            pb1.LargeImage = pb1Image;
+            PushButtonData data = new PushButtonData("Curved", "Curved", path, "CurvedInsulation.Draw");
+            PushButton button = panel.AddItem(data) as PushButton;
+            button.ToolTip = "Draw Curved Insulation. Pick a reference Insulation Batting and then the arc or line be applied to.";
+            BitmapImage image = new BitmapImage(new Uri("pack://application:,,,/CurvedInsulation;component/Resources/CurvedInsulation.png"));
+            button.LargeImage = image;
         }
         public Result OnStartup(UIControlledApplication application)
         {
@@ -34,6 +28,6 @@ namespace CurvedInsulation
         public Result OnShutdown(UIControlledApplication application)
         {
             return Result.Succeeded;
-        }        
+        }
     }
 }
